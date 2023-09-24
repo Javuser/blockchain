@@ -23,7 +23,7 @@ public class Transaction {
 
     @Override
     public String toString() {
-        return sender + " -> " + recipient + ": " + amount + " BTC";
+        return sender + " -> " + recipient + ": " + amount + " коинов";
     }
 
 }
