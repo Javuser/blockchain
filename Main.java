@@ -14,6 +14,7 @@ public class Main {
         //Scanner sc = new Scanner(System.in);
         //System.out.println(block1.calculateHash());
 
+        System.out.println(block1.getTransactions());
 
         boolean isBlockchainValid = blockchain.isChainValid();
         //System.out.println("Is blockchain valid? " + isBlockchainValid);
