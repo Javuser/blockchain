@@ -19,12 +19,12 @@ public class Block {
         this.difficulty = difficulty;
         this.hash = mineBlock();
     }
-
+    // Func adding Transaction
     public void addTransaction(Transaction transaction) {
         transactions.add(transaction);
         merkleRoot = calculateMerkleRoot();
     }
-
+    // Func Calculate root
     public String calculateMerkleRoot() {
         List<String> tree = new ArrayList<>();
         for (Transaction transaction : transactions) {

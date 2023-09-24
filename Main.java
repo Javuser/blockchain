@@ -7,8 +7,8 @@ public class Main {
         Blockchain blockchain = new Blockchain(2);
 
         Block block1 = new Block(blockchain.blockchain.get(blockchain.blockchain.size() - 1).getHash(), 2);
-        block1.addTransaction(new Transaction("Nurbakyt", "Abylaykhan", 80));
-        block1.addTransaction(new Transaction("Abylaykhan", "Mahdi", 50));
+        block1.addTransaction(new Transaction("Nurba", "Ablik", 80));
+        block1.addTransaction(new Transaction("Ablik", "MahdiBrow", 50));
         blockchain.addBlock(block1);
 
         //Scanner sc = new Scanner(System.in);
